@@ -87,10 +87,14 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./project.html"> 
@@ -101,8 +105,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+    <a class="nav-link" href="./skills.html"> 
+<span class="menu-text">Skills</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -120,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome-to-my-portfolio" id="toc-welcome-to-my-portfolio" class="nav-link active" data-scroll-target="#welcome-to-my-portfolio"><span class="header-section-number">1</span> Welcome to My Portfolio</a></li>
+  <li><a href="#welcome-to-my-portfolio" id="toc-welcome-to-my-portfolio" class="nav-link active" data-scroll-target="#welcome-to-my-portfolio">Welcome to My Portfolio</a></li>
   </ul>
 </nav>
     </div>
@@ -146,8 +150,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome-to-my-portfolio" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome to My Portfolio</h1>
+<section id="welcome-to-my-portfolio" class="level1">
+<h1>Welcome to My Portfolio</h1>
 <p>Divyanshu Sharma</p>
 <p>MBA Candidate | Revenue Growth Stratagist | B2B Sales Enthusiast</p>
 <p>🙋‍♂️About Me I am a results-oriented MBA student with a proven background in SaaS based sales, retail operations, and HR tech implementation. Passionate about leadership, equity in business, and strategic growth, I bring a unique blend of customer-facing experience and behind-the-scenes operational insight. I’m currently enhancing my skills in data analytics, project management, and organizational leadership.</p>
@@ -264,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/reallyitsmedodo0909\.github\.io\/Full-Portfolio-\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
