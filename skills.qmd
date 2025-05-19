@@ -1,6 +1,7 @@
 ---
 title: "Skills"
 format: html
+theme: darkly
 ---
 
 ## 

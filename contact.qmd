@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 format: html
+theme: darkly
 ---
 
 📍Location - Vancouver, British Columbia, Canada

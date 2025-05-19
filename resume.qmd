@@ -1,6 +1,7 @@
 ---
 title: "Resume"
 format: html
+theme: darkly
 ---
 
 ## **DIVYANSHU SHARMA**

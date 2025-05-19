@@ -1,6 +1,7 @@
 ---
 title: "Home"
 format: html
+theme: darkly
 ---
 
 # Welcome to My Portfolio
