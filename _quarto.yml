@@ -1,27 +1,26 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "My Portfolio"
-  
-
   navbar:
     left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Contact"
-        href: contact.qmd
-      - text: "Projects"
-        href: project.qmd
-      - text: "Resume"
-        href: resume.qmd
-      - text: "Skills"
-        href: skills.qmd
+      - href: index.qmd
+        text: Home
+      - href: resume.qmd
+        text: Resume
+      - href: project.qmd
+        text: Projects
+      - href: skills.qmd
+        text: Skills
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
-    theme: cosmo
+    theme: [default, styles/custom.scss]
     toc: true
 
-publish:
-  method: gh-pages
+execute:
+  freeze: auto
